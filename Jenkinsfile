@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/your-repository.git'
+                git 'https://github.com/finixinnovation/CICDfirstDemo.git' 
             }
         }
         
