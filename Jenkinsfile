@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        maven 'Maven 3.9.6' // Name of the Maven installation configured in Jenkins
+    }
 
     environment {
         JAVA_HOME = 'C:\\Program Files\\Java\\jdk-11' // Set this to your JDK path
